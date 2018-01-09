@@ -28,8 +28,6 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginButtonTapped (_ sender : UIButton) {
         
-        
-        
     }
     
     @IBAction func signupButtonTapped(_ sender : UIButton) {
