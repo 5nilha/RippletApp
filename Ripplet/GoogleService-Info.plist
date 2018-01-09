@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>465944388718-pokrf33gfmiu4uneus8ji7v58ru9tqmp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.465944388718-pokrf33gfmiu4uneus8ji7v58ru9tqmp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAR1tKcqR7LI-SGEzRzFcIDNe_0JxyLbDQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>465944388718</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rippletApp.Ripplet</string>
+	<key>PROJECT_ID</key>
+	<string>ripplet-6bba3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ripplet-6bba3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:465944388718:ios:2cc2c529dc3baf1d</string>
+	<key>DATABASE_URL</key>
+	<string>https://ripplet-6bba3.firebaseio.com</string>
+</dict>
+</plist>
