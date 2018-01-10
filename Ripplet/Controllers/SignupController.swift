@@ -25,6 +25,7 @@ class SignupController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         newsletterSubscriptionSwitch.isOn = true
+        self.title = "Sign Up"
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,6 +63,8 @@ class SignupController: UITableViewController {
     
     @IBAction func signupButtonTapped (_ sender : UIButton ) {
         
+        checkFields()
+        
         guard let firstName = firstNameTextField.text, firstName != "" else { return }
         guard let lastName = lastNameTextField.text, lastName != "" else { return }
         guard let username = usernameTextField.text, username != "" else { return }
@@ -95,16 +98,21 @@ class SignupController: UITableViewController {
             self.view.endEditing(true)
             
             //Present the Home View Controller
-            if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "MainView") {
-                UIApplication.shared.keyWindow?.rootViewController = viewController
-                self.dismiss(animated: true, completion: nil)
-            }
+//            if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "MainView") {
+//                UIApplication.shared.keyWindow?.rootViewController = viewController
+//                self.dismiss(animated: true, completion: nil)
+//            }
+            
+            let homeStoryboard = UIStoryboard(name: "Home", bundle: nil)
+            let viewController = homeStoryboard.instantiateViewController(withIdentifier: "FeedsView")
+            UIApplication.shared.keyWindow?.rootViewController = viewController
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
     
     @IBAction func backButtonTapped() {
-        
+        self.dismiss(animated: true, completion: nil)
     }
 
 }
