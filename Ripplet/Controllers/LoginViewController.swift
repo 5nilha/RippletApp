@@ -66,6 +66,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func facebookLoginButtonTapped(_ sender : UIButton) {
         
+        
     }
     
     @IBAction func googleLoginButtonTapped(_ sender: UIButton) {
