@@ -22,6 +22,19 @@
 		3E8555D42004AECB0004C5FC /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8555D32004AECB0004C5FC /* SignupController.swift */; };
 		3E8555D62004BA950004C5FC /* DatabaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8555D52004BA950004C5FC /* DatabaseServices.swift */; };
 		3E8555D82004BBAE0004C5FC /* DataCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8555D72004BBAE0004C5FC /* DataCollectionReference.swift */; };
+		3E8E49542009545200F229AF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E49532009545200F229AF /* SWRevealViewController.m */; };
+		3E8E49562009556700F229AF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E49552009556700F229AF /* GradientView.swift */; };
+		3E8E495820099DBD00F229AF /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E495720099DBD00F229AF /* FeedsViewController.swift */; };
+		3E8E495A2009A16700F229AF /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E49592009A16700F229AF /* SideMenuViewController.swift */; };
+		3E8E49612009C41F00F229AF /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E49602009C41F00F229AF /* ProfileTableViewController.swift */; };
+		3E8E49642009C4AE00F229AF /* ConstantProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E49632009C4AE00F229AF /* ConstantProperties.swift */; };
+		3E8E49662009CF7B00F229AF /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E49652009CF7B00F229AF /* EditProfileTableViewController.swift */; };
+		3EBC61DC2011CBA500276285 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC61DB2011CBA500276285 /* Profile.storyboard */; };
+		3EBC61DE2011CCD200276285 /* EditNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC61DD2011CCD200276285 /* EditNameVC.swift */; };
+		3EBC61E32011CE1A00276285 /* EditAboutMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC61E22011CE1A00276285 /* EditAboutMeVC.swift */; };
+		3EBC61E72011E38000276285 /* RippletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC61E62011E38000276285 /* RippletsViewController.swift */; };
+		3EBC61E92011E39A00276285 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC61E82011E39A00276285 /* CategoriesViewController.swift */; };
+		3EBC61EB2011EF0700276285 /* TabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC61EA2011EF0700276285 /* TabBarExtension.swift */; };
 		3ED3A95C2005E7AE00BA9F37 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED3A95B2005E7AE00BA9F37 /* Home.storyboard */; };
 		3ED3A95E2005F23000BA9F37 /* SignupControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED3A95D2005F23000BA9F37 /* SignupControllerExtension.swift */; };
 		3ED3A9622005F89D00BA9F37 /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED3A9612005F89D00BA9F37 /* LineButton.swift */; };
@@ -60,6 +73,21 @@
 		3E8555D32004AECB0004C5FC /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 		3E8555D52004BA950004C5FC /* DatabaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseServices.swift; sourceTree = "<group>"; };
 		3E8555D72004BBAE0004C5FC /* DataCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionReference.swift; sourceTree = "<group>"; };
+		3E8E49512009545100F229AF /* Ripplet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ripplet-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E8E49522009545200F229AF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3E8E49532009545200F229AF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3E8E49552009556700F229AF /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3E8E495720099DBD00F229AF /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
+		3E8E49592009A16700F229AF /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		3E8E49602009C41F00F229AF /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		3E8E49632009C4AE00F229AF /* ConstantProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantProperties.swift; sourceTree = "<group>"; };
+		3E8E49652009CF7B00F229AF /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		3EBC61DB2011CBA500276285 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		3EBC61DD2011CCD200276285 /* EditNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditNameVC.swift; path = "../New Group/EditNameVC.swift"; sourceTree = "<group>"; };
+		3EBC61E22011CE1A00276285 /* EditAboutMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAboutMeVC.swift; sourceTree = "<group>"; };
+		3EBC61E62011E38000276285 /* RippletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippletsViewController.swift; sourceTree = "<group>"; };
+		3EBC61E82011E39A00276285 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		3EBC61EA2011EF0700276285 /* TabBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExtension.swift; sourceTree = "<group>"; };
 		3ED3A95B2005E7AE00BA9F37 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		3ED3A95D2005F23000BA9F37 /* SignupControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupControllerExtension.swift; sourceTree = "<group>"; };
 		3ED3A9612005F89D00BA9F37 /* LineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineButton.swift; sourceTree = "<group>"; };
@@ -124,12 +152,14 @@
 		3E85559A200474C20004C5FC /* Ripplet */ = {
 			isa = PBXGroup;
 			children = (
+				3E8E49622009C48D00F229AF /* Utilities */,
 				3ED3A96620061CC600BA9F37 /* Configuration */,
 				3E8555CE2004A6530004C5FC /* Database */,
 				3E8555C320049C7D0004C5FC /* Extensions */,
 				3E8555C220049ABC0004C5FC /* Models */,
 				3E8555C120049AB20004C5FC /* Controllers */,
 				3E8555BB20047AA20004C5FC /* View */,
+				3E8E49502009543000F229AF /* Supporting FIles */,
 				3ED3A96520061C9800BA9F37 /* Storyboards */,
 				3E8555A2200474C20004C5FC /* Assets.xcassets */,
 				3E8555C820049FC00004C5FC /* GoogleService-Info.plist */,
@@ -152,6 +182,7 @@
 			children = (
 				3E8555BE20047D2F0004C5FC /* CustomizableTextField.swift */,
 				3ED3A9612005F89D00BA9F37 /* LineButton.swift */,
+				3E8E49552009556700F229AF /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,9 +190,9 @@
 		3E8555C120049AB20004C5FC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E85559D200474C20004C5FC /* LoginViewController.swift */,
-				3E8555D32004AECB0004C5FC /* SignupController.swift */,
-				3ED3A95D2005F23000BA9F37 /* SignupControllerExtension.swift */,
+				3EBC61E52011E34200276285 /* Home VCs */,
+				3EBC61E42011E2FB00276285 /* Login and Registration */,
+				3E8E495F2009C3F600F229AF /* Profile VCs */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,6 +210,7 @@
 			children = (
 				3E8555C620049CEB0004C5FC /* ViewControllerExtension.swift */,
 				3ED3A9632005FA2100BA9F37 /* UITextField+Placeholder.swift */,
+				3EBC61EA2011EF0700276285 /* TabBarExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,11 +225,86 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
+		3E8E49502009543000F229AF /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E49522009545200F229AF /* SWRevealViewController.h */,
+				3E8E49532009545200F229AF /* SWRevealViewController.m */,
+				3E8E49512009545100F229AF /* Ripplet-Bridging-Header.h */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		3E8E495F2009C3F600F229AF /* Profile VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC61DF2011CCE900276285 /* Profile Home */,
+				3EBC61E02011CD0700276285 /* Edit Profile */,
+			);
+			path = "Profile VCs";
+			sourceTree = "<group>";
+		};
+		3E8E49622009C48D00F229AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E49632009C4AE00F229AF /* ConstantProperties.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3EBC61DF2011CCE900276285 /* Profile Home */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E49602009C41F00F229AF /* ProfileTableViewController.swift */,
+			);
+			path = "Profile Home";
+			sourceTree = "<group>";
+		};
+		3EBC61E02011CD0700276285 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E49652009CF7B00F229AF /* EditProfileTableViewController.swift */,
+				3EBC61E12011CD1F00276285 /* Popups */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		3EBC61E12011CD1F00276285 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC61DD2011CCD200276285 /* EditNameVC.swift */,
+				3EBC61E22011CE1A00276285 /* EditAboutMeVC.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		3EBC61E42011E2FB00276285 /* Login and Registration */ = {
+			isa = PBXGroup;
+			children = (
+				3E85559D200474C20004C5FC /* LoginViewController.swift */,
+				3E8555D32004AECB0004C5FC /* SignupController.swift */,
+				3ED3A95D2005F23000BA9F37 /* SignupControllerExtension.swift */,
+			);
+			path = "Login and Registration";
+			sourceTree = "<group>";
+		};
+		3EBC61E52011E34200276285 /* Home VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E49592009A16700F229AF /* SideMenuViewController.swift */,
+				3E8E495720099DBD00F229AF /* FeedsViewController.swift */,
+				3EBC61E62011E38000276285 /* RippletsViewController.swift */,
+				3EBC61E82011E39A00276285 /* CategoriesViewController.swift */,
+			);
+			path = "Home VCs";
+			sourceTree = "<group>";
+		};
 		3ED3A96520061C9800BA9F37 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				3E85559F200474C20004C5FC /* Main.storyboard */,
 				3ED3A95B2005E7AE00BA9F37 /* Home.storyboard */,
+				3EBC61DB2011CBA500276285 /* Profile.storyboard */,
 				3E8555A4200474C20004C5FC /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -276,6 +383,7 @@
 				TargetAttributes = {
 					3E855597200474C20004C5FC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					3E8555AB200474C30004C5FC = {
@@ -313,6 +421,7 @@
 				3ED3A95C2005E7AE00BA9F37 /* Home.storyboard in Resources */,
 				3E8555C920049FC00004C5FC /* GoogleService-Info.plist in Resources */,
 				3E8555A3200474C20004C5FC /* Assets.xcassets in Resources */,
+				3EBC61DC2011CBA500276285 /* Profile.storyboard in Resources */,
 				3E8555A1200474C20004C5FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +513,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
@@ -417,6 +527,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
@@ -451,17 +562,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8E495A2009A16700F229AF /* SideMenuViewController.swift in Sources */,
+				3E8E49542009545200F229AF /* SWRevealViewController.m in Sources */,
 				3E8555C720049CEB0004C5FC /* ViewControllerExtension.swift in Sources */,
+				3EBC61E72011E38000276285 /* RippletsViewController.swift in Sources */,
+				3EBC61DE2011CCD200276285 /* EditNameVC.swift in Sources */,
 				3ED3A9622005F89D00BA9F37 /* LineButton.swift in Sources */,
 				3E8555BF20047D2F0004C5FC /* CustomizableTextField.swift in Sources */,
+				3E8E49562009556700F229AF /* GradientView.swift in Sources */,
 				3E8555D62004BA950004C5FC /* DatabaseServices.swift in Sources */,
+				3EBC61EB2011EF0700276285 /* TabBarExtension.swift in Sources */,
+				3E8E49612009C41F00F229AF /* ProfileTableViewController.swift in Sources */,
+				3EBC61E32011CE1A00276285 /* EditAboutMeVC.swift in Sources */,
+				3E8E495820099DBD00F229AF /* FeedsViewController.swift in Sources */,
 				3E8555D42004AECB0004C5FC /* SignupController.swift in Sources */,
+				3E8E49642009C4AE00F229AF /* ConstantProperties.swift in Sources */,
 				3E85559E200474C20004C5FC /* LoginViewController.swift in Sources */,
 				3E8555D82004BBAE0004C5FC /* DataCollectionReference.swift in Sources */,
 				3E8555CB2004A3200004C5FC /* User.swift in Sources */,
 				3E85559C200474C20004C5FC /* AppDelegate.swift in Sources */,
+				3E8E49662009CF7B00F229AF /* EditProfileTableViewController.swift in Sources */,
 				3ED3A9642005FA2100BA9F37 /* UITextField+Placeholder.swift in Sources */,
 				3E8555D02004A6C40004C5FC /* DataDocumentFields.swift in Sources */,
+				3EBC61E92011E39A00276285 /* CategoriesViewController.swift in Sources */,
 				3ED3A95E2005F23000BA9F37 /* SignupControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,12 +739,15 @@
 			baseConfigurationReference = 341B8196AFDFA4083AA6410F /* Pods-Ripplet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8M84SE4ND;
 				INFOPLIST_FILE = Ripplet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rippletApp.Ripplet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ripplet/Supporting FIles/Ripplet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -632,12 +758,14 @@
 			baseConfigurationReference = 5166460D9A5991D56B37E538 /* Pods-Ripplet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8M84SE4ND;
 				INFOPLIST_FILE = Ripplet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rippletApp.Ripplet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ripplet/Supporting FIles/Ripplet-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

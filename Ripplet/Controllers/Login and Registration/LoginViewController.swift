@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseFirestore
+import SwiftKeychainWrapper
 
 class LoginViewController: UIViewController {
 
@@ -20,7 +21,18 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
     }
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let  retrieveString: String? = KeychainWrapper.standard.string(forKey: "uid"){
+            let homeStoryboard = UIStoryboard(name: "Home", bundle: nil)
+            let viewController = homeStoryboard.instantiateViewController(withIdentifier: "HomeView")
+            UIApplication.shared.keyWindow?.rootViewController = viewController
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -47,12 +59,14 @@ class LoginViewController: UIViewController {
                 return
             }
         
+            
+            
             //Dismiss Keyboard
             self.view.endEditing(true)
             
             //present the Feeds View
             let homeStoryboard = UIStoryboard(name: "Home", bundle: nil)
-            let viewController = homeStoryboard.instantiateViewController(withIdentifier: "FeedsView")
+            let viewController = homeStoryboard.instantiateViewController(withIdentifier: "HomeView")
             UIApplication.shared.keyWindow?.rootViewController = viewController
             self.dismiss(animated: true, completion: nil)
             

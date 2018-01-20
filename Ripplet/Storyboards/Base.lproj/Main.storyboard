@@ -289,10 +289,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9i3-2H-cCT">
-                                                    <rect key="frame" x="20" y="51" width="335" height="33"/>
+                                                    <rect key="frame" x="20" y="51" width="374" height="33"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Lc-fq-CPZ" customClass="CustomizableTextField" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="33"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="177" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="8lZ-LR-niY"/>
                                                             </constraints>
@@ -306,7 +306,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </textField>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xQQ-T8-4Jd" customClass="CustomizableTextField" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="177.66666666666663" y="0.0" width="157.33333333333337" height="33"/>
+                                                            <rect key="frame" x="197" y="0.0" width="177" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="89g-UR-h3Y"/>
                                                             </constraints>
@@ -322,17 +322,17 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="63I-2A-ofI">
-                                                    <rect key="frame" x="20" y="85" width="335" height="1"/>
+                                                    <rect key="frame" x="20" y="85" width="374" height="1"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDB-4y-JWS">
-                                                            <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="1"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="177" height="1"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="3nI-If-ZXo"/>
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9eq-97-Ror">
-                                                            <rect key="frame" x="177.66666666666663" y="0.0" width="157.33333333333337" height="1"/>
+                                                            <rect key="frame" x="197" y="0.0" width="177" height="1"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="fcp-b1-EtH"/>
@@ -365,10 +365,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hp1-h0-bQG">
-                                                    <rect key="frame" x="20" y="5" width="335" height="33"/>
+                                                    <rect key="frame" x="20" y="5" width="374" height="33"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Choose a Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n21-fQ-NqN" customClass="CustomizableTextField" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="335" height="33"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="xGJ-yj-Zhr"/>
                                                             </constraints>
@@ -384,10 +384,10 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kqs-3S-i8i">
-                                                    <rect key="frame" x="20" y="39" width="335" height="1"/>
+                                                    <rect key="frame" x="20" y="39" width="374" height="1"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzr-UX-3aZ">
-                                                            <rect key="frame" x="0.0" y="0.0" width="335" height="1"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="1"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="Zfv-rF-Q0A"/>
@@ -419,10 +419,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rjA-7U-geb">
-                                                    <rect key="frame" x="20" y="5" width="335" height="33"/>
+                                                    <rect key="frame" x="20" y="5" width="374" height="33"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Your Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c8F-UE-psJ" customClass="CustomizableTextField" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="335" height="33"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="7Gv-bk-yhd"/>
                                                             </constraints>
@@ -438,10 +438,10 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdj-97-Fzb">
-                                                    <rect key="frame" x="20" y="39" width="335" height="1"/>
+                                                    <rect key="frame" x="20" y="39" width="374" height="1"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ejt-4z-Tw5">
-                                                            <rect key="frame" x="0.0" y="0.0" width="335" height="1"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="1"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="5y4-5P-dLZ"/>
@@ -473,10 +473,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="vNK-GJ-6Fg">
-                                                    <rect key="frame" x="20" y="5" width="335" height="33"/>
+                                                    <rect key="frame" x="20" y="5" width="374" height="33"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CYh-xL-Jsp" customClass="CustomizableTextField" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="160.66666666666666" height="33"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="180" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="NiN-BQ-F7z"/>
                                                             </constraints>
@@ -490,7 +490,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </textField>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Zip Code" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S0Z-1R-umc" customClass="CustomizableTextField" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="174.66666666666663" y="0.0" width="160.33333333333337" height="33"/>
+                                                            <rect key="frame" x="194" y="0.0" width="180" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="fcV-DB-Zjb"/>
                                                             </constraints>
@@ -506,10 +506,10 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xgs-je-Rgz">
-                                                    <rect key="frame" x="20" y="40" width="335" height="1"/>
+                                                    <rect key="frame" x="20" y="40" width="374" height="1"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1LD-uj-Bfs">
-                                                            <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="1"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="177" height="1"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="d5x-4x-f1U"/>
@@ -517,7 +517,7 @@
                                                             <viewLayoutGuide key="safeArea" id="cgM-bB-P4u"/>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTN-ZM-bz7">
-                                                            <rect key="frame" x="177.66666666666663" y="0.0" width="157.33333333333337" height="1"/>
+                                                            <rect key="frame" x="197" y="0.0" width="177" height="1"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="LpP-Th-yOG"/>
@@ -549,10 +549,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FPT-2r-ZoA">
-                                                    <rect key="frame" x="20" y="5" width="335" height="33"/>
+                                                    <rect key="frame" x="20" y="5" width="374" height="33"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Your Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D5p-cp-Ray" customClass="CustomizableTextField" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="335" height="33"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="2iA-k2-Ddx"/>
                                                             </constraints>
@@ -569,10 +569,10 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ef4-IS-CPe">
-                                                    <rect key="frame" x="20" y="39" width="335" height="1"/>
+                                                    <rect key="frame" x="20" y="39" width="374" height="1"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jcw-Kc-Y42">
-                                                            <rect key="frame" x="0.0" y="0.0" width="335" height="1"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="1"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="xDQ-W4-bmf"/>
@@ -604,16 +604,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yAm-vP-wqA">
-                                                    <rect key="frame" x="49" y="0.0" width="276" height="31"/>
+                                                    <rect key="frame" x="49" y="0.0" width="315" height="31"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscribe to Newsletter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVV-YA-stG">
-                                                            <rect key="frame" x="0.0" y="0.0" width="227" height="31"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="266" height="31"/>
                                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jg5-ct-eGh">
-                                                            <rect key="frame" x="227" y="0.0" width="51" height="31"/>
+                                                            <rect key="frame" x="266" y="0.0" width="51" height="31"/>
                                                             <color key="onTintColor" red="0.1647058824" green="0.54901960780000003" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </switch>
                                                     </subviews>
@@ -635,10 +635,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xoy-n0-mAc">
-                                                    <rect key="frame" x="48" y="0.0" width="280" height="40"/>
+                                                    <rect key="frame" x="48" y="0.0" width="319" height="40"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvf-OS-Y3B" customClass="LineButton" customModule="Ripplet" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="319" height="40"/>
                                                             <color key="backgroundColor" red="0.24464784619576593" green="0.46708946957693603" blue="0.69055046829475364" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="cmH-DQ-Gw1"/>

@@ -10,6 +10,7 @@ target 'Ripplet' do
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'Firebase/Firestore'
+    pod 'SwiftKeychainWrapper'
 
 
   target 'RippletTests' do

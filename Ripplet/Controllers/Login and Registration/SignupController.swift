@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SwiftKeychainWrapper
 
 class SignupController: UITableViewController {
 
@@ -94,20 +95,26 @@ class SignupController: UITableViewController {
             let userID = Auth.auth().currentUser!.uid //Getting the automatic generated userId from authentication to pass to the database storage
             self.newUser = User(userID: userID, firstName: firstName, lastName: lastName, username: username, emailAddress: email, phoneNumber: phone, zipCode: zipCode, newsletterSubscriber: newsletterSubscriber)
             
+            if let user = user {
+                self.configureKeyChain(id: user.uid)
+            }
+          
+            
             //Dismiss Keyboard
             self.view.endEditing(true)
             
             //Present the Home View Controller
-//            if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "MainView") {
-//                UIApplication.shared.keyWindow?.rootViewController = viewController
-//                self.dismiss(animated: true, completion: nil)
-//            }
-            
             let homeStoryboard = UIStoryboard(name: "Home", bundle: nil)
-            let viewController = homeStoryboard.instantiateViewController(withIdentifier: "FeedsView")
+            let viewController = homeStoryboard.instantiateViewController(withIdentifier: "HomeView")
             UIApplication.shared.keyWindow?.rootViewController = viewController
             self.dismiss(animated: true, completion: nil)
         }
+    }
+    
+    func configureKeyChain(id: String) {
+        
+        let saveSuccessful: Bool = KeychainWrapper.standard.set(id, forKey: "uid")
+        print("DEVELOPER: Data saved to keychain \(saveSuccessful)")
     }
     
     
